@@ -67,7 +67,18 @@
           </releases>
         </repository>
  
-        
+         <repository>
+          <id>fis.brew</id>
+          <name>FIS Brew Repository</name>
+          <url>http://download.eng.bos.redhat.com/brewroot/repos/jb-fis-2.0-maven-build/latest/maven/</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </repository>
         
       </repositories>
 
@@ -114,7 +125,18 @@
           </releases>
         </pluginRepository>
  
-        
+        <pluginRepository>
+          <id>fis.brew</id>
+          <name>FIS Brew Repository</name>
+          <url>http://download.eng.bos.redhat.com/brewroot/repos/jb-fis-2.0-maven-build/latest/maven/</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </pluginRepository>
         
       </pluginRepositories>
     </profile>
