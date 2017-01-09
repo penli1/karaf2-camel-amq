@@ -92,11 +92,13 @@
     {
       "name": "ACTIVEMQ_USERNAME",
       "displayName": "ActiveMQ Broker Username",
+      "value": "admin",
       "description": "The username used to authenticate with the ActiveMQ broker. Leave it empty if authentication is disabled."
     },
     {
       "name": "ACTIVEMQ_PASSWORD",
       "displayName": "ActiveMQ Broker Password",
+      "value": "admin",
       "description": "The password used to authenticate with the ActiveMQ broker. Leave it empty if authentication is disabled."
     },
     {
