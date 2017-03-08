@@ -386,7 +386,7 @@
           "sourceStrategy": {
             "from": {
               "kind": "DockerImage",
-              "name": "registry.access.redhat.com/jboss-fuse-6-tech-preview/fis-karaf-openshift:2.0"
+              "name": "registry.access.redhat.com/jboss-fuse-6/fis-karaf-openshift:2.0"
             },
             "forcePull": true,
             "incremental": true,
